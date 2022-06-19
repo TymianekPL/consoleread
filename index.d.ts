@@ -28,4 +28,5 @@ declare module "consoleread" {
      }
 
      export = ConsoleRead;
+     export default ConsoleRead;
 }
