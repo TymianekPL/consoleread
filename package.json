@@ -1,6 +1,6 @@
 {
      "name": "consoleread",
-     "version": "0.0.1",
+     "version": "1.0.0",
      "description": "A console reading library",
      "main": "index.js",
      "scripts": {
