@@ -13,8 +13,8 @@ declare module "consoleread" {
 
           list(list: string[]): Promise<string>;
           list(list: string[], question: string): Promise<string>;
-
-          boolean(question: boolean): Promise<boolean>;
+          list(list: string[], multiple: boolean): Promise<string>;
+          list(list: string[], multiple: boolean, question: string): Promise<string>;
      }
 
      export interface ConsoleReadOptions {
